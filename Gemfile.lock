@@ -30,6 +30,9 @@ GEM
       dry-equalizer (~> 0.2)
       dry-logic (~> 0.4, >= 0.4.0)
       dry-types (~> 0.9, >= 0.9.0)
+    firebase (0.2.6)
+      httpclient
+      json
     hanami (1.0.0)
       bundler (~> 1.13)
       concurrent-ruby (~> 1.0)
@@ -69,7 +72,9 @@ GEM
     http_router (0.11.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
+    httpclient (2.8.3)
     inflecto (0.0.2)
+    json (2.1.0)
     mail (2.6.6)
       mime-types (>= 1.16, < 4)
     mime-types (3.1)
@@ -90,6 +95,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv (~> 2.0)
+  firebase
   hanami (~> 1.0)
   puma
   rake

@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'hanami', '~> 1.0'
+gem 'firebase'
 
 group :development do
   gem 'shotgun'
