@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rake'
 gem 'hanami', '~> 1.0'
 gem 'firebase'
+gem 'twilio-ruby'
 
 group :development do
   gem 'shotgun'
